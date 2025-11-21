@@ -17,12 +17,12 @@ public class ControlAcceso_Daniel_Nieto {
                 System.out.println("Error, ¿seguro que estas vivo?");
                 salida = false;
                 intentos++;
-                System.out.println("Tienes : " + intentos + " intento " + " de 3");
+                System.out.println("Tienes : " + intentos + " intento " + "de 3");
             } else {
                 salida = true;
             }
         // Bucle
-        while (intentos < 3 && !salida); {
+        while (intentos < 3 && !salida) {
             if (edad < 18){
                 System.out.println("Acceso denegado: menor de edad.");
 
